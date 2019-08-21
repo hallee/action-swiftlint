@@ -1,4 +1,4 @@
-FROM vapor/swift:5.1-bionic
+FROM hallee/swiftlint:swift-5.1
 LABEL version="0.1.0"
 LABEL repository="https://github.com/hallee/action-swiftlint"
 LABEL homepage="https://github.com/hallee/action-swiftlint"
