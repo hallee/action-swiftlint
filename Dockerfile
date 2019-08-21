@@ -1,8 +1,7 @@
-FROM norionomura/swiftlint:swift-4.2
+FROM vapor/swift:5.1-bionic
 LABEL version="0.1.0"
-LABEL repository="https://github.com/norio-nomura/action-swiftlint"
-LABEL homepage="https://github.com/norio-nomura/action-swiftlint"
-LABEL maintainer="Norio Nomura <norio.nomura@gmail.com>"
+LABEL repository="https://github.com/hallee/action-swiftlint"
+LABEL homepage="https://github.com/hallee/action-swiftlint"
 
 LABEL "com.github.actions.name"="GitHub Action for SwiftLint"
 LABEL "com.github.actions.description"="A tool to enforce Swift style and conventions."
